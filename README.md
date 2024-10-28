@@ -15,23 +15,6 @@ Welcome to the Pokedex Application! This project is a dynamic web application th
 - **TypeScript**: A superset of JavaScript that adds static types for improved developer tooling.
 - **CSS**: For styling the application, using modern layout techniques.
 
-## You cna try at
-
-https://pokedex1357.netlify.app/
-
-### Installation
-
-1.  Clone the repository:
-    git clone https://github.com/Deltech/pokedex
-    cd pokedex-app
-
-2.  Install the dependencies:
-    npm install
-
-3.  npm run dev
-
-4.  Open your browser and navigate to http://localhost:3000 (or the port indicated in the terminal).
-
 ### Usage
 
 Explore the Pokémon list on the homepage.
