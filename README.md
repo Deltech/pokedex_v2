@@ -24,6 +24,10 @@ Click on a Pokémon to view detailed information.
 
 The application fetches Pokémon data from the PokéAPI. Ensure you handle the API requests efficiently to provide a smooth user experience.
 
+### Link
+
+https://pokedex202401.netlify.app
+
 ### Acknowledgments
 
 React
