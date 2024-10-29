@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Pokemon, Overview, Modal, fetchData } from "./index.ts";
-import { PokemonData, PokemonDisplay } from "./types.ts";
+import { PokemonData, PokemonDisplay } from "../types";
 import "../Css/card.css";
 
 interface RenderPokemonProps {

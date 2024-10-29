@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { colorByType } from "./utils";
-import { PokemonType, ColorType, TypeApiResponse } from "./types.ts";
+import { PokemonType, ColorType, TypeApiResponse } from "../types";
 import "../Css/card.css";
 
 interface WeaknessesProps {

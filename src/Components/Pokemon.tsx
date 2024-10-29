@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { PokemonData } from "./types.ts";
+import { PokemonData } from "../types";
 import "../Css/app.css";
 
 export interface PokemonProps {

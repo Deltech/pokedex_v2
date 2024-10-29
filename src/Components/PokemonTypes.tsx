@@ -1,6 +1,6 @@
 import { useId } from "react";
 import { colorByType } from "./utils.ts";
-import { ColorType, PokemonType } from "./types.ts";
+import { ColorType, PokemonType } from "../types";
 import "../Css/card.css";
 
 export interface TypesProps {

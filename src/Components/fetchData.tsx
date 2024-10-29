@@ -1,4 +1,4 @@
-import { PokemonApiResponse, PokemonData } from "./types.ts";
+import { PokemonApiResponse, PokemonData } from "../types";
 
 interface FetchDataProps {
   setPokemonData: React.Dispatch<React.SetStateAction<PokemonData[]>>;

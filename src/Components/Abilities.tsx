@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Ability, AbilityData } from "./types.ts";
+import { Ability, AbilityData } from "../types";
 
 const Abilities: React.FC<{ children: Ability[] }> = ({ children }) => {
   const [abilities, setAbilities] = useState<AbilityData[]>([]);

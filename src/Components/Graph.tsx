@@ -1,5 +1,5 @@
 import { useId } from "react";
-import { Stat } from "./types.ts";
+import { Stat } from "../types";
 
 export interface GraphProps {
   children: Stat[];

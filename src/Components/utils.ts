@@ -1,4 +1,4 @@
-import { ColorType } from "./types.ts";
+import { ColorType } from "../types";
 
 // Array of color types with their corresponding hex values or gradients
 

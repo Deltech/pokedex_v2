@@ -1,6 +1,6 @@
 import { useId } from "react";
 import { PokemonTypes, Abilities, Graph, Weaknesses } from "./index.ts";
-import { PokemonData } from "./types.ts";
+import { PokemonData } from "../types";
 import "../Css/card.css";
 
 export interface ModalProps {
