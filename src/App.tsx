@@ -77,25 +77,3 @@ function App() {
 }
 
 export default App;
-
-// import { useState, useEffect } from "react";
-// import { Display } from "./Components/index.ts";
-
-// function App() {
-//   const [pokemonDisplay, setPokemonDisplay] = useState<{
-//     first: number;
-//     last: number;
-//   }>({
-//     first: 1,
-//     last: 9,
-//   });
-
-//   return (
-//     <Display
-//       pokemonDisplay={pokemonDisplay}
-//       setPokemonDisplay={setPokemonDisplay}
-//     />
-//   );
-// }
-
-// export default App;

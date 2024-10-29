@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Pokemon, Overview, Modal, fetchData } from "./index.ts";
+import { Pokemon, Overview, Modal, useFetchData } from "./index.ts";
 import { PokemonData, PokemonDisplay } from "../types";
 import "../Css/card.css";
 
@@ -12,7 +12,7 @@ const RenderPokemon: React.FC<RenderPokemonProps> = ({ pokemonDisplay }) => {
 
   useEffect(() => {
     const fetchDataAsync = async () => {
-      await fetchData({ pokemonDisplay, setPokemonData });
+      await useFetchData({ pokemonDisplay, setPokemonData });
     };
     fetchDataAsync();
   }, [pokemonDisplay]);

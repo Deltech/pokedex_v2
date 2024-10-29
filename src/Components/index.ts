@@ -13,4 +13,4 @@ export { default as Graph } from "./Graph.tsx";
 export { default as Modal } from "./Modal.tsx";
 export { default as Abilities } from "./Abilities.tsx";
 export { default as Weaknesses } from "./Weaknesses.tsx";
-export { default as fetchData } from "./fetchData.tsx";
+export { default as useFetchData } from "./useFetchData.tsx";
